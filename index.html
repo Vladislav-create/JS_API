@@ -4,15 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        .box {
-        width: 100px;
-        height: 100px;
-        background-color: lightblue;
-        margin: 10px;
-        display: inline-block;
-        }
-        </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- <section class="task">
@@ -28,9 +20,61 @@
         <div class="box">2</div>
         <div class="box">3</div>
     </div> -->
-    <div class="content">
+    <!-- <div class="content">
         <button class="btnAdd">Добавить статью</button>
-    </div>
-    <script src="seminar1.3.js"></script>
+    </div> -->
+    <!-- <nav>
+        <ul class="menu">
+        <li><a class="menu__link" href="#">Главная</a></li>
+        <li><a class="menu__link" href="#">О нас</a></li>
+        <li><a class="menu__link" href="#">Услуги</a></li>
+        <li><a class="menu__link" href="#">Контакты</a></li>
+        </ul>
+    </nav> -->
+    <!-- <button class="btn__show">Открыть модальное окно</button>
+    <div class="modalWindow hidden">
+        <h1 class="modalWindow__header">Модальное окно</h1>
+        <button class="modalWindow__btn">Закрыть модальное окно</button>
+    </div> -->
+
+    <!-- <button class="btnChange"></button> -->
+    <div class="question">
+        <p>Вопрос 1: Какой ваш любимый цвет?</p>
+        <div class="options">
+        <label>
+        <input class="inputElem" type="radio" name="q1" value="Синий"> Синий
+        </label>
+        <label>
+        <input class="inputElem" type="radio" name="q1" value="Зеленый"> Зеленый
+        </label>
+        <label>
+        <input class="inputElem" type="radio" name="q1" value="Красный"> Красный
+        </label>
+        </div>
+        </div>
+        
+        <div class="question">
+        <p>Вопрос 2: Какое ваше любимое животное?</p>
+        <div class="options">
+        <label>
+        <input class="inputElem" type="radio" name="q2" value="Собака"> Собака
+        </label>
+        <label>
+        <input class="inputElem" type="radio" name="q2" value="Кот"> Кот
+        </label>
+        <label>
+        <input class="inputElem" type="radio" name="q2" value="Попугай"> Попугай
+        </label>
+        </div>
+        </div>
+        
+        <button id="submit">Завершить опрос</button>
+        
+        <div class="result" style="display: none;">
+        <p>Результаты:</p>
+        <p id="result-q1">Вопрос 1: <span></span></p>
+        <p id="result-q2">Вопрос 2: <span></span></p>
+        </div>
+    <script src="seminar2.4.js"></script>
 </body>
 </html>

@@ -1,0 +1,14 @@
+.nav {
+  display: flex;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.img__size {
+  max-width: 550px;
+}/*# sourceMappingURL=style.css.map */
